@@ -1,14 +1,18 @@
  <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+  <head>
+    <title>Simple Polygon</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="/src/style.css" />
+    <script src="/src/index.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
 
-<iframe scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas"
-        src="/src/index.html" width="520" height="400" frameborder="0">
-</iframe>
- 
-
-</body>
-</html> 
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
