@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## Alpine Climbing Spots
 
-You can use the [editor on GitHub](https://github.com/sofa1780/alpineclimbingtours/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This project shall present an overview of alpine climbing tours according to the climb degree, pitches, and other needs.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The back-end will be driven by simple database containing published tours from Alpine Climbing Guides from https://www.panico.de/buecher/alpin-kletterfuehrer.html.
 
-### Markdown
+The front-end will be driven by google maps JavaScript API https://developers.google.com/maps/documentation/javascript.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Map (Draft)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sofa1780/alpineclimbingtours/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Having trouble with Pages? Contact me via github
